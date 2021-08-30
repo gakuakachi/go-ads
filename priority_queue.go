@@ -1,3 +1,5 @@
+package main
+
 type intHeap []int
 
 func (h intHeap) Len() int           { return len(h) }

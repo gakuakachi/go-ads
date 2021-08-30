@@ -1,12 +1,12 @@
 package main
 
-func newDeque() *deque {
-	return &deque{}
-}
-
 type deque struct {
 	prep []interface{}
 	ap   []interface{}
+}
+
+func newDeque() *deque {
+	return &deque{}
 }
 
 func (d *deque) PushFront(item interface{}) {
